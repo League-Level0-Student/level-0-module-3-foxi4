@@ -13,12 +13,7 @@ public class RobotColorChooser {
 	public static void main(String[] args) {
 		//2/23/20- I'm officially 12! Hooray.
 	for(int i = 0; i<1000000;i++) {
-		int red;
-		int orange;
-		int yellow;
-		int green;
-		int blue;
-		int purple;
+		
 		//1. Create a new Robot
 		Robot U2=new Robot();
 		//3. Ask the user what color they would like the robot to draw

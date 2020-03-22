@@ -1,3 +1,4 @@
+package _05_horoscope;
 import javax.swing.JOptionPane;
 
 public class Horoscope {

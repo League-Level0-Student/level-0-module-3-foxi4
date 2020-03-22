@@ -11,16 +11,20 @@ public class BirthdayReminder {
 	public static void main(String[] args) {
 	
 		// 1. correct the birthdays for your family below
-		String momsBirthday = "January 24th";
-		String dadsBirthday = "June 9th";
-		String myBirthday = "April 16th";
+		String momsBirthday = "October 22nd";
+		String dadsBirthday = "July 22th";
+		String myBirthday = "February 23rd";
+		String brosBirthday = "October 22nd";
 
 		// 2. Find out which birthday the user wants and and store their response in a variable
-	
+	String birthday= JOptionPane.showInputDialog("What birthday do you want?");
 		// 3. Print out what the user typed
-		
+		System.out.print(birthday);
 		// 4. if user asked for "mom"
 			//print mom's birthday
+		if(birthday.equals("mom")) {
+			System.out.print(momsBirthday);
+		}
 		// 5. if user asked for "dad"
 			// print dad's birthday
 		// 6. if user asked for your name

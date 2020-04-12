@@ -16,11 +16,15 @@ public class ShinyObjects {
 		// 2. Ask the user how many shiny objects they want
 String sound=JOptionPane.showInputDialog("How many shiny objects do you want?");
 		// 3. Play the sound that many times
-System.out.println(sound);
-		// 1. Call the method below
-playMisterZee();
-	}
+int sounds= Integer.parseInt(sound);
 
+//System.out.println(sounds);
+		// 1. Call the method below
+for (int i = 0; i < sounds; i++) {
+	System.out.print("playMisterZee()");
+}
+
+	}
 	public static void playMisterZee() {
 		try {
 			AudioClip sound = JApplet.newAudioClip(ShinyObjects.class.getResource("shiny-objects.wav"));
@@ -33,3 +37,4 @@ playMisterZee();
 
 
 }
+

@@ -3,6 +3,8 @@
 
 package _12_fizz_buzz;
 
+import java.util.Random;
+
 import javax.swing.JOptionPane;
 
 /**
@@ -21,15 +23,23 @@ import javax.swing.JOptionPane;
 * Print your results to the console, or using JOptionPane if you like.
 * 
 * If your code is correct, the output will be:
-*  
+* 
 * 1 2 fizz 4 buzz fizz 7 8 fizz buzz 11 fizz 13 14 fizzbuzz 16 17 fizz 19 buzz
 * 
 **/
 
 public class FizzBuzz {
 	public static void main(String[] args) {
-JOptionPane.showMessageDialog(null, "1 2 fizz 4 buzz fizz 7 8 fizz buzz 11 fizz 13 14 fizzbuzz 16 17 fizz 19 buzz");
-}
+		//for(int i = 0; i < 20; i++) {
+		int fizzbuzz= new Random().nextInt(100);
+		if(fizzbuzz % 3 == 0) {
+			JOptionPane.showMessageDialog(null, "fizz");
+	
+		if(fizzbuzz % 5 == 0) {
+			JOptionPane.showMessageDialog(null, "buzz");
+		}
+
+}}
 }
 
 //int number = new Random().nextInt(100);

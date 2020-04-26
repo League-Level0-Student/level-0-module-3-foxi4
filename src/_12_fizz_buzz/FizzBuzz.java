@@ -31,6 +31,7 @@ import javax.swing.JOptionPane;
 public class FizzBuzz {
 	public static void main(String[] args) {
 		//for(int i = 0; i < 20; i++) {
+		
 		int fizzbuzz= new Random().nextInt(100);
 		if(fizzbuzz % 3 == 0) {
 			JOptionPane.showMessageDialog(null, "fizz");

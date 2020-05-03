@@ -30,27 +30,24 @@ import javax.swing.JOptionPane;
 
 public class FizzBuzz {
 	public static void main(String[] args) {
-		//for(int i = 0; i < 20; i++) {
 		
-		int fizzbuzz= new Random().nextInt(100);
+		for(int i = 1; i < 21; i++) {
+ int fizzbuzz = i;
+		
 		if(fizzbuzz % 3 == 0) {
-			JOptionPane.showMessageDialog(null, "fizz");
-	
-		if(fizzbuzz % 5 == 0) {
-			JOptionPane.showMessageDialog(null, "buzz");
+			System.out.print("fizz");
 		}
+		if(fizzbuzz % 5 == 0) {
+			System.out.print("buzz");
+		}
+		if(fizzbuzz % 3!= 0&&fizzbuzz % 5!= 0) {
+			System.out.print(i);
+		}
+		System.out.println();
 
-}}
 }
-
-//int number = new Random().nextInt(100);
-//if (number % 2 == 0) {
-//    System.out.println("number is even");
-//}
-//else {
-  //  System.out.println("number is odd");
-//}
-
+}
+}
 
 
 

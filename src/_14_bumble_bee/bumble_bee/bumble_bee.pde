@@ -38,10 +38,13 @@ void drawBeeFace(int BeeFaceX, int BeeFaceY) {
      fill(255, 251, 28);
      ellipse(BeeFaceX, BeeFaceY+5, 20, 6);
 }
-
+void drawBeeBody() {
+  
+}
 void setup() {
      ellipseMode(CENTER);
      size(500, 500);
      background(160, 160, 160);
       drawFlower(350, 100);
+      drawBeeFace(100,350);
 }
